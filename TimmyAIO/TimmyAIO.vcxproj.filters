@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Champions">
+      <UniqueIdentifier>{7081fe1b-8c7e-42d6-bee0-b2f2ec9301de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{d71c1bcc-9722-4e2c-b6d1-0031a1e3492d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Nocturne">
+      <UniqueIdentifier>{7eeea14b-0ed3-4712-8f0d-030378b8fbdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Nocturne\Source Files">
+      <UniqueIdentifier>{c847de01-bad5-4d41-a813-4c7cd81c41e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Champions\Nocturne\Header Files">
+      <UniqueIdentifier>{c30a24f4-7e32-43c1-b7e2-d5bf3dc6812f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manamanager">
+      <UniqueIdentifier>{d1a671b9-fab5-4ce3-8a66-76080ee0ea09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manamanager\Source Files">
+      <UniqueIdentifier>{1ebebc37-0582-46b4-8c02-596155f0cecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manamanager\Header Files">
+      <UniqueIdentifier>{ff29ab93-a2c0-4b6a-9179-ae4b0767c0af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TimmyAIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Manamanager.h">
+      <Filter>Manamanager\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Manamanager.Menu.h">
+      <Filter>Manamanager\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\clipper.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\Common.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\DashDatabase.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\Game.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\GameObjects.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\Geometry.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\IBuffManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\ICollision.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\IControl.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\IDamageLib.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\IEntityManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\IEventHandler.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\IHealthPrediction.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\Interface Structs.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\Interruptible.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\IOrbwalker.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\IPrediction.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\ITargetSelector.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\ItemID.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\KeyCodes.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\Macros.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\Menu.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\Renderer.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\SDK Extensions.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\sdkapi.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\Spell.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rift-sdk-extensions\Include\Vectors.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Nocturne.Drawings.h">
+      <Filter>Champions\Nocturne\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nocturne.Events.h">
+      <Filter>Champions\Nocturne\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nocturne.h">
+      <Filter>Champions\Nocturne\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nocturne.Menu.h">
+      <Filter>Champions\Nocturne\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nocturne.Modes.h">
+      <Filter>Champions\Nocturne\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nocturne.Spells.h">
+      <Filter>Champions\Nocturne\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TimmyAIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manamanager.cpp">
+      <Filter>Manamanager\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manamanager.Menu.cpp">
+      <Filter>Manamanager\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rift-sdk-extensions\Include\clipper.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Nocturne.cpp">
+      <Filter>Champions\Nocturne\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nocturne.Drawings.cpp">
+      <Filter>Champions\Nocturne\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nocturne.Events.cpp">
+      <Filter>Champions\Nocturne\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nocturne.Menu.cpp">
+      <Filter>Champions\Nocturne\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nocturne.Modes.cpp">
+      <Filter>Champions\Nocturne\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nocturne.Spells.cpp">
+      <Filter>Champions\Nocturne\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
